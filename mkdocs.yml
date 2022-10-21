@@ -1,0 +1,75 @@
+site_name: My Docs
+site_url: https://example.com/
+
+nav:
+  - Home: index.md
+  - OSINT: ctf/ctf-osint.md
+  - Crypto: ctf/ctf-crypto.md
+  - Stego: ctf/ctf-stego.md
+  - Password: ctf/ctf-password.md
+  - Forensics: ctf/ctf-forensics.md
+  - Reversing: ctf/ctf-reversing.md
+
+
+
+theme:
+  name: material
+
+  features:
+    #- navigation.instant
+    #- navigation.tracking
+    #- navigation.tabs
+    #- navigation.sections
+    - navigation.expand
+    - navigation.indexes
+    #- toc.integrate
+
+  palette:
+    # Palette toggle for light mode
+    - scheme: default
+      primary: indigo
+      toggle:
+        icon: material/lightbulb
+        name: Switch to dark mode
+
+    # Palette toggle for dark mode
+    - scheme: slate
+      primary: indigo
+      toggle:
+        icon: material/lightbulb-outline
+        name: Switch to light mode
+
+
+markdown_extensions:
+
+  # Python Markdown
+  - abbr
+  - admonition
+  - attr_list
+  - def_list
+  - footnotes
+  - md_in_html
+  - toc:
+      permalink: true
+
+  # Python Markdown Extensions
+  - pymdownx.arithmatex:
+      generic: true
+  - pymdownx.betterem:
+      smart_enable: all
+  - pymdownx.caret
+  - pymdownx.details
+  - pymdownx.emoji:
+      emoji_index: !!python/name:materialx.emoji.twemoji
+      emoji_generator: !!python/name:materialx.emoji.to_svg
+  - pymdownx.highlight
+  - pymdownx.inlinehilite
+  - pymdownx.keys
+  - pymdownx.mark
+  - pymdownx.smartsymbols
+  - pymdownx.superfences
+  - pymdownx.tabbed:
+      alternate_style: true
+  - pymdownx.tasklist:
+      custom_checkbox: true
+  - pymdownx.tilde
