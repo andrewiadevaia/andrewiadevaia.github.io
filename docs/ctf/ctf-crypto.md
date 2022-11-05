@@ -4,6 +4,7 @@
 ---
 - [Cipher Identifier](https://www.boxentriq.com/code-breaking/cipher-identifier){target=_blank}
 - [DCode Identifier](https://www.dcode.fr/cipher-identifier){target=_blank}
+- [CacheSleuth](https://www.cachesleuth.com/multidecoder/){target=_blank} - This will automate many different cipher suites, VERY GOOD.
 - [QuipQuip](https://quipqiup.com){target=_blank} - An online tool for breaking substitution ciphers or vigenere ciphers without key.
 
 ## Tier II
